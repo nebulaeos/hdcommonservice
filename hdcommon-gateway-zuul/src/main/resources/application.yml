@@ -1,0 +1,10 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: hdtmmicroservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:holdtime5350606@peer1:8761/eureka/,http://admin:holdtime5350606@peer2:8762/eureka/
+    
